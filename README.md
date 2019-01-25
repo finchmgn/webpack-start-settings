@@ -1,11 +1,11 @@
 # webpack-start-settings
-
+<pre>
 Базовая настройка Webpack 
 
-Компилирует:<br/>
-HTML        - dist/<br/>
-CSS/SCSS    - dist/<br/>
-JS          - dist/<br/>
+Компилирует:
+HTML        - dist/
+CSS/SCSS    - dist/
+JS          - dist/
 IMG         - dist/img
 
 При mode production CSS и JS компилируется без комментариев, табуляций и пробелов.
@@ -28,3 +28,4 @@ With mode production, CSS and JS are compiled without comments, tabs and spaces.
 CSS is compiled from the src/main.scss file. If necessary, you can import other CSS/SCSS files into this file.
 
 Images are processed when compiling.
+</pre>
