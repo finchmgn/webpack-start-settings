@@ -2,10 +2,10 @@
 
 Базовая настройка Webpack 
 
-Компилирует:
-HTML        - dist/
-CSS/SCSS    - dist/
-JS          - dist/
+Компилирует:<br/>
+HTML        - dist/<br/>
+CSS/SCSS    - dist/<br/>
+JS          - dist/<br/>
 IMG         - dist/img
 
 При mode production CSS и JS компилируется без комментариев, табуляций и пробелов.
