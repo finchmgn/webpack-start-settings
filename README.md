@@ -12,6 +12,7 @@ IMG         - dist/img
 CSS компилируется из файла src/main.scss. В этот файл при необходимости можно импортировать другие CSS/SCSS файлы.
 
 Изображения при компиляции обрабатываются.
+Все подключенные шрифты компилируются в папку '/dist/fonts/'.
 
 
 ENG 
@@ -28,4 +29,5 @@ With mode production, CSS and JS are compiled without comments, tabs and spaces.
 CSS is compiled from the src/main.scss file. If necessary, you can import other CSS/SCSS files into this file.
 
 Images are processed when compiling.
+All connected fonts compiled in '/dist/fonts/' folder.
 </pre>
