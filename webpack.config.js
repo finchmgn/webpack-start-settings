@@ -27,6 +27,15 @@ module.exports = {
                 ]
             },
             {
+                test: /\.(woff|woff2|eot|ttf)$/,
+                loader: 'url-loader',
+                options: {
+                    publicPath: './fonts/',
+                    name: './fonts/[name].[ext]',
+                    limit: 1000
+                }
+            },
+            {
                 test: /\.(jpe?g|png|svg|gif)$/,
                 use: [
                     {
