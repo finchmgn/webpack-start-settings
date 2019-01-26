@@ -1,3 +1,11 @@
 /* все файлы CSS  нужно подключать импортом сюда */
 /* All CSS-files must be import here */ 
 @import './../css/main.css';
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('../fonts/roboto/Roboto-Regular.ttf')
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
